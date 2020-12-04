@@ -1,5 +1,5 @@
 
-#composer install --ansi --no-interaction
+composer install --ansi --no-interaction
 
 openssl genpkey -out /app/config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096 -pass pass:123456
 openssl pkey -in config/jwt/private.pem -out config/jwt/public.pem -pubout -passin pass:123456
