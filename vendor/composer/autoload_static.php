@@ -411,9 +411,9 @@ class ComposerStaticInitf5f00af001bfa7b461eae5da54b0c781
     );
 
     public static $classMap = array (
-        'App\\Controller\\AuthController' => __DIR__ . '/../..' . '/src/Controller/AuthController.php',
         'App\\Controller\\SecurityController' => __DIR__ . '/../..' . '/src/Controller/SecurityController.php',
         'App\\Controller\\UserController' => __DIR__ . '/../..' . '/src/Controller/UserController.php',
+        'App\\Doctrine\\RefreshTokenManager' => __DIR__ . '/../..' . '/src/Doctrine/RefreshTokenManager.php',
         'App\\Entity\\User' => __DIR__ . '/../..' . '/src/Entity/User.php',
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
         'App\\Repository\\UserRepository' => __DIR__ . '/../..' . '/src/Repository/UserRepository.php',
@@ -3834,6 +3834,7 @@ class ComposerStaticInitf5f00af001bfa7b461eae5da54b0c781
         'Symfony\\Flex\\Lock' => __DIR__ . '/..' . '/symfony/flex/src/Lock.php',
         'Symfony\\Flex\\Options' => __DIR__ . '/..' . '/symfony/flex/src/Options.php',
         'Symfony\\Flex\\PackageFilter' => __DIR__ . '/..' . '/symfony/flex/src/PackageFilter.php',
+        'Symfony\\Flex\\PackageJsonSynchronizer' => __DIR__ . '/..' . '/symfony/flex/src/PackageJsonSynchronizer.php',
         'Symfony\\Flex\\PackageResolver' => __DIR__ . '/..' . '/symfony/flex/src/PackageResolver.php',
         'Symfony\\Flex\\ParallelDownloader' => __DIR__ . '/..' . '/symfony/flex/src/ParallelDownloader.php',
         'Symfony\\Flex\\Path' => __DIR__ . '/..' . '/symfony/flex/src/Path.php',

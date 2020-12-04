@@ -6,9 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\Controller\\AuthController' => $baseDir . '/src/Controller/AuthController.php',
     'App\\Controller\\SecurityController' => $baseDir . '/src/Controller/SecurityController.php',
     'App\\Controller\\UserController' => $baseDir . '/src/Controller/UserController.php',
+    'App\\Doctrine\\RefreshTokenManager' => $baseDir . '/src/Doctrine/RefreshTokenManager.php',
     'App\\Entity\\User' => $baseDir . '/src/Entity/User.php',
     'App\\Kernel' => $baseDir . '/src/Kernel.php',
     'App\\Repository\\UserRepository' => $baseDir . '/src/Repository/UserRepository.php',
@@ -3429,6 +3429,7 @@ return array(
     'Symfony\\Flex\\Lock' => $vendorDir . '/symfony/flex/src/Lock.php',
     'Symfony\\Flex\\Options' => $vendorDir . '/symfony/flex/src/Options.php',
     'Symfony\\Flex\\PackageFilter' => $vendorDir . '/symfony/flex/src/PackageFilter.php',
+    'Symfony\\Flex\\PackageJsonSynchronizer' => $vendorDir . '/symfony/flex/src/PackageJsonSynchronizer.php',
     'Symfony\\Flex\\PackageResolver' => $vendorDir . '/symfony/flex/src/PackageResolver.php',
     'Symfony\\Flex\\ParallelDownloader' => $vendorDir . '/symfony/flex/src/ParallelDownloader.php',
     'Symfony\\Flex\\Path' => $vendorDir . '/symfony/flex/src/Path.php',

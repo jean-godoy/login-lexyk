@@ -10,12 +10,12 @@ use App\Entity\User;
 
 
 /**
- * @Route("/users", name="user_")
+ * @Route("/api/users", name="user_")
  */
 class UserController extends AbstractController
 {
     /**
-     * @Route("/users", name="user_")
+     * @Route("/index", name="user_")
      */
     public function index(): Response
     {
